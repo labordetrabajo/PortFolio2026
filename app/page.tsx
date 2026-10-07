@@ -1,6 +1,8 @@
 import ContactForm from "../components/ContactForm";
 import Terminal from "../components/Terminal";
 
+const basePath = "/PortFolio2026";
+
 const capabilities = [
   ["PRODUCT / UX", "Requirements, flows, responsive interfaces, touch and kiosk UX", "INPUT → FLOW → INTERFACE"],
   ["FRONTEND", "React, Next.js, TypeScript, motion and interactive interfaces", "UI → STATE → EXPERIENCE"],
@@ -84,8 +86,6 @@ const milestones = [
   ["04", "SHIP", "Deploy, configure infrastructure, validate production behavior and remove friction."],
   ["05", "OPERATE", "Support, debug, improve and keep the system usable outside the development machine."],
 ];
-
-const basePath = "/PortFolio2026";
 
 const profileFacts = [
   ["status", "online"],
